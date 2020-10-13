@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+	<form onsubmit="check()">
+	    <label>Nama</label>
+	    <input type="text" id="nama">
+	</form>
+	
+	<div id="result"></div>
+	
+<script>
+function check() {
+  if (isNaN(document.getElementById("nama"))) {
+        alert("tidak string");
+  }
+}
+</script>
+</body>
+</html>
