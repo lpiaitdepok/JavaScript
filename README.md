@@ -3,4 +3,4 @@
 learning about javascript
 
 contributor:
-lpia depok
+* lpia depok computer
