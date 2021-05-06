@@ -1,0 +1,34 @@
+<form action="#" name=submitform onSubmit="return checkFields()">
+
+Please enter your name or your email address.<br><br>
+<table border=0>
+<tr>
+<td align=center>Name</td>
+<td> </td>
+<td align=center>Email</td>
+</tr>
+<tr>
+<td align=center><input type=text name=name value="" onFocus="document.submitform.email.value='';" size=10></td>
+<td align=center>Or...</td>
+<td align=center><input type=text name=email value="" onFocus="document.submitform.name.value='';" size=10></td>
+</tr>
+<tr>
+<td colspan=3 align=center><input type=submit value="Submit!"></td>
+</tr>
+</table>
+</form>
+
+<script language="javascript">
+<!-- Begin
+function checkFields() {
+name = document.submitform.name.value;
+email = document.submitform.email.value;
+
+if ((name == "") && (email == "") ) {
+alert("Please enter your name or your email address.");
+return false;
+}
+else return true;
+}
+//  End -->
+</script>
