@@ -2,5 +2,5 @@
 
 learning about javascript
 
-contributor:
-* lpia computer
+# Reference:
+ckeditor, jquery, fullcalendar
